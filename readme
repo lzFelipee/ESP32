@@ -1,0 +1,40 @@
+# Projeto ESP32 com MQTT: Automação Sustentável para Economia de Energia
+
+## Luiz Felipe Motta da Silva
+## RM: 559126
+
+## Objetivo
+
+O principal objetivo deste projeto é demonstrar como a tecnologia IoT pode ser utilizada para criar soluções de **automação sustentável**, reduzindo o uso desnecessário de energia elétrica. O LED será acionado automaticamente apenas quando necessário, contribuindo com a **redução do consumo energético**.
+
+### Como funciona:
+- **Sensor LDR (Luz)**: Detecta se o ambiente está claro ou escuro.
+- **Sensor PIR (Movimento)**: Identifica se há movimento no local.
+- **LED**: Acende automaticamente quando está escuro e há movimento. Permite também controle manual via MQTT.
+
+## Impacto na Economia de Energia
+
+Este projeto visa a automação do controle do LED com base nas condições ambientais. O LED será acionado somente em locais escuros e quando houver movimento, evitando consumo desnecessário de energia. Isso pode ser expandido para outros dispositivos, criando sistemas de automação para promover maior **eficiência energética**.
+
+## Funcionamento do Sistema
+
+1. **Monitoramento Ambiental**:
+   - O sensor LDR detecta se o ambiente está claro ou escuro.
+   - O sensor PIR detecta se há movimento no local.
+   
+2. **Automação do LED**:
+   - O LED acende automaticamente apenas em locais escuros com movimento.
+   - Caso o ambiente esteja claro ou sem movimento, o LED permanece desligado.
+
+3. **Controle Manual**:
+   - O LED também pode ser controlado manualmente por meio de comandos MQTT.
+
+4. **Publicação de Dados**:
+   - O estado da luz e do movimento são publicados em tópicos MQTT, permitindo monitoramento remoto.
+
+
+## Demonstração do Projeto
+
+
+[![Vídeo do Projeto no YouTube]()](https://youtu.be/aShIflp9PhI)  
+[Link direto para o wokwi](https://wokwi.com/projects/414783193493188609)
